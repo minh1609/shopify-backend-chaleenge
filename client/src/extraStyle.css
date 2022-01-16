@@ -1,0 +1,65 @@
+body {
+  overflow: scroll;
+}
+
+a {
+  text-decoration: none !important;
+  color: inherit;
+}
+
+a:hover {
+  color: #5a5c69;
+}
+
+.pointer:hover {
+  cursor: pointer;
+}
+
+.icon {
+  font-size: 15px;
+  color: #d1d3e2;
+  transition: 1s;
+}
+
+.icon div {
+  display: inline;
+}
+
+.hover-red:hover {
+  color: red;
+}
+
+.hover-green:hover {
+  color: green;
+}
+
+/* TRANSITION */
+
+.fade-enter {
+  opacity: 0.01;
+}
+
+.fade-enter.fade-enter-active {
+  opacity: 1;
+  transition: opacity 500ms ease-in;
+}
+
+.fade-exit {
+  opacity: 1;
+}
+
+.fade-exit.fade-exit-active {
+  opacity: 0.01;
+  transition: opacity 500ms ease-in;
+}
+
+div.transition-group {
+  position: relative;
+}
+
+section.route-section {
+  position: absolute;
+  width: 100%;
+  top: 0;
+  left: 0;
+}
